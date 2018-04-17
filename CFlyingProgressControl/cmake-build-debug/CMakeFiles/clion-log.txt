@@ -1,0 +1,4 @@
+/media/wang/53e7a7f3-2f22-4903-a350-2bcbba12fbb4/clion-2017.3.4/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/wang/Documents/CLionProjects/CFlyingProgressControl
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wang/Documents/CLionProjects/CFlyingProgressControl/cmake-build-debug

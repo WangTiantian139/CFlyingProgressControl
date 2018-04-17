@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="CFlyingProgressControl" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/CFlyingProgressControl" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/CFlyingProgressControl" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="FlyingProgress.cpp" />
+		<Unit filename="FlyingProgress.h" />
+		<Unit filename="List.h" />
+		<Unit filename="ListNode.h" />
+		<Unit filename="Motion.cpp" />
+		<Unit filename="Motion.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="test/TestFlyingProgress.cpp" />
+		<Unit filename="test/TestFlyingProgress.h" />
+		<Unit filename="test/TestList.cpp" />
+		<Unit filename="test/TestList.h" />
+		<Unit filename="test/TestMotion.cpp" />
+		<Unit filename="test/TestMotion.h" />
+		<Unit filename="test/doc/TestFlyByCmdOut.csv" />
+		<Unit filename="test/doc/TestFlyCmdIn.txt" />
+		<Unit filename="test/doc/TestFlyPlusAListOut.csv" />
+		<Unit filename="test/doc/TestFlyPlusOut.csv" />
+		<Unit filename="test/doc/TestListAppendOut.txt" />
+		<Unit filename="test/doc/TestListInsertOut.txt" />
+		<Unit filename="test/doc/TestListRandomDataIn.txt" />
+		<Unit filename="test/doc/TestMotionInsertOut.csv" />
+		<Unit filename="test/doc/TestMotionMoveOut.csv" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

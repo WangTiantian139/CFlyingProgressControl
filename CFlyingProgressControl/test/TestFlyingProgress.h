@@ -1,0 +1,13 @@
+//
+// Created by wang on 18-4-10.
+//
+
+#ifndef FLYINGPROGRESSCONTROL_TESTFLYINGPROGRESS_H
+#define FLYINGPROGRESSCONTROL_TESTFLYINGPROGRESS_H
+
+#include "../FlyingProgress.h"
+
+
+void testFlyingProgress();
+
+#endif //FLYINGPROGRESSCONTROL_TESTFLYINGPROGRESS_H
